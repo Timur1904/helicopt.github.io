@@ -1,0 +1,220 @@
+body{
+	border: 1px silver solid;
+}
+.header__inner{
+	display:flex;
+	margin-top:39px;
+}
+
+.header__text{
+	margin-left:36px;
+	margin-top:5px;
+}
+
+
+.header__text__tel{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #B3B3B3;
+	
+}
+
+.header__text__num{
+margin-top:8px;	
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #37373F;
+}
+
+article{
+	margin-top:38px;
+	width:100%;
+	height:840px;
+	background-image: url(img/helimain.png);
+	background-position: center center;
+  
+	background-repeat: no-repeat;
+  
+  
+  /* Изменение размера картинки, в зависимости от экрана */
+	background-size: cover;
+  
+	background-color: #3D3D3D;
+}
+@media only screen and (max-width: 767px) {
+  article {
+    background-image: url(img/helimain_01.png);
+  }
+}
+
+.article__exclusive{
+	margin-top:286px;
+}
+
+.text__exclusive{
+	
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+
+color: #FFFFFF;
+
+}
+
+.red{
+	background:none;
+	color: #FC9B09;
+}
+
+.article__rectangle{
+	margin-top: 29px;
+	width:224px;
+	height:96px;
+	background-image:url('img/rectangle.png')
+	
+}
+
+.article__submit{
+	margin-top: 12px;
+	width: 304px;
+	height: 68px;
+	border: 3px white solid ;
+}
+
+.submit__text{
+	padding-top: 22px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	
+}
+
+.modal__bron {
+	text-align: center;
+	margin-top: 62px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	color: #37373F;
+}
+
+
+.modal__date{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.modal__date__str{
+	margin: 0;
+	padding:0;
+	color: red;
+	background:none;
+	
+}
+
+.modal__email {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 10px;
+	
+}
+
+input[type="date"]{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	width:420px;
+	height: 44px;
+	border: 1px solid #C7C7C7;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding-left: 20px;
+	
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+	color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(img/calendar.png)no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+input[type="text"]{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	width:420px;
+	height: 44px;
+	border: 1px solid #C7C7C7;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding-left: 20px;
+	color: #C7C7C7;
+}
+
+
+.input__act{
+	display:flex;
+	width:420px;
+}
+input[id="input__act"]{
+	width:210px;
+	height: 44px;
+	border-top: none;
+}
+
+input[id="input__cvv"]{
+	padding:0;
+	margin:0;
+	width:210px;
+	height: 44px;
+	border-top: none;
+	padding-left: 20px;
+}
+
+.btn__bron{
+	width: 390px;
+	height: 72px;
+	background: #FC9B09;
+	border-radius: 3px;
+	margin:0 auto;
+	margin-top: 50px;
+	
+}
+
+.bron {
+	padding-top:27px;
+	padding-left:129px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	
+}
+
+
+	
+
